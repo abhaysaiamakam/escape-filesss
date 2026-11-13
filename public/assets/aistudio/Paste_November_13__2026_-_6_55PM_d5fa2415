@@ -1,0 +1,1223 @@
+# PROJECT: ESCAPE FILES — THE HOSTEL CHRONICLES
+## ULTIMATE HACKATHON PRODUCT BUILD SPECIFICATION
+
+You are an elite indie game development studio consisting of:
+
+- Game Creative Director
+- Senior Game Architect
+- Puzzle and Narrative Designer
+- 3D Environment Artist
+- Cinematic Experience Designer
+- Frontend Architect
+- Interaction Designer
+- Audio Designer
+- Game QA Engineer
+
+Your mission is to transform the existing HOSTEL ROOM: THE FINAL NIGHT project into a polished, three-campaign escape-room gaming platform.
+
+PRODUCT NAME:
+
+ESCAPE FILES
+
+SUBTITLE:
+
+THE HOSTEL CHRONICLES
+
+TAGLINE:
+
+"Three locations. Three mysteries. Nine locks. One hidden truth."
+
+This is a competitive hackathon submission.
+
+The finished application must deliver an exceptionally polished user experience, genuinely challenging puzzles, cinematic storytelling, immersive environments and fully functional gameplay.
+
+This is not a static website or a collection of puzzle forms.
+
+It is a complete browser-based escape-room gaming experience.
+
+==================================================
+PART 1 — CRITICAL PROJECT RULES
+==================================================
+
+Before writing code, inspect the existing repository.
+
+Understand:
+- Existing framework.
+- Existing components.
+- Existing 3D scene.
+- Existing animations.
+- Existing game state.
+- Existing puzzle implementations.
+- Existing assets.
+- Existing inventory.
+- Existing hint system.
+- Existing timer.
+- Existing victory and failure states.
+
+The original game is already functional.
+
+Preserve its working implementation.
+
+Use the current hostel-room game as the foundation for the Easy campaign wherever appropriate.
+
+Do not unnecessarily replace working components.
+
+Do not discard the original puzzle solutions or alter their validation without understanding the existing implementation.
+
+Do not regenerate the entire application from scratch.
+
+Build incrementally.
+
+==================================================
+PART 2 — THREE-CAMPAIGN PRODUCT VISION
+==================================================
+
+Build three completely different escape-room campaigns.
+
+These are independent games inside one gaming platform.
+
+Each campaign must have:
+- Unique storyline.
+- Unique environment.
+- Unique objects.
+- Unique evidence.
+- Unique inventory.
+- Unique interactions.
+- Exactly three linked puzzle locks.
+- Independent timer.
+- Independent two-hint allowance.
+- Unique victory.
+- Unique failure.
+- Unique soundscape.
+- Unique narrative events.
+
+The three campaigns share the same fictional universe.
+
+Their discoveries eventually connect to a larger mystery about the hostel and its warden.
+
+CAMPAIGN 01:
+THE LOST ROOM KEY — EASY.
+
+CAMPAIGN 02:
+THE MIDNIGHT TRANSMISSION — MEDIUM.
+
+CAMPAIGN 03:
+THE WARDEN'S LAST SECRET — DIFFICULT.
+
+==================================================
+PART 3 — PREMIUM GAME LAUNCHER
+==================================================
+
+Create a cinematic main menu.
+
+Main title:
+
+ESCAPE FILES
+
+Subtitle:
+
+THE HOSTEL CHRONICLES
+
+Tagline:
+
+"Three mysteries. One forgotten truth."
+
+The launcher must contain:
+
+1. Play.
+2. Campaign selection.
+3. Player profile.
+4. Achievements.
+5. Statistics.
+6. Settings.
+7. Continue game where applicable.
+
+CAMPAIGN CARDS:
+
+CARD 1:
+THE LOST ROOM KEY.
+Difficulty: EASY.
+Estimated duration: 8 minutes.
+
+CARD 2:
+THE MIDNIGHT TRANSMISSION.
+Difficulty: MEDIUM.
+Estimated duration: 12 minutes.
+
+CARD 3:
+THE WARDEN'S LAST SECRET.
+Difficulty: DIFFICULT.
+Estimated duration: 18 minutes.
+
+Each campaign card must have:
+- Unique cinematic artwork.
+- Unique environment preview.
+- Story introduction.
+- Difficulty indicator.
+- Estimated completion time.
+- Campaign completion status.
+- Start or Continue button.
+
+Make the launcher look like a premium indie game title screen.
+
+Do not use a generic admin dashboard design.
+
+CAMPAIGN UNLOCKING:
+
+Normal mode:
+- Easy is initially available.
+- Medium unlocks after completing Easy.
+- Difficult unlocks after completing Medium.
+
+Judge Demo Mode:
+- All three campaigns can be accessed immediately.
+- Puzzle-solving requirements remain unchanged.
+- No automatic puzzle completion.
+- No automatic hint consumption.
+- No skipped mandatory gameplay.
+
+==================================================
+PART 4 — CAMPAIGN 01
+THE LOST ROOM KEY
+==================================================
+
+DIFFICULTY:
+EASY.
+
+STORY:
+
+The player is locked inside Room 307 of an Indian engineering college hostel.
+
+It is 11:47 PM.
+
+The hostel warden has announced an unexpected inspection.
+
+The player discovers that the room key has disappeared.
+
+A mysterious note says:
+
+"Everything you need is already here. Look carefully. Three locks stand between you and freedom."
+
+ENVIRONMENT:
+
+A realistic, detailed hostel bedroom.
+
+Required interactive objects:
+- Study table.
+- Bookshelf.
+- Wall clock.
+- Backpack.
+- Calendar.
+- Wardrobe.
+- Bed.
+- Desk drawer.
+- Wall poster.
+- Window.
+- Hostel door.
+
+Use the existing hostel game implementation wherever possible.
+
+Preserve its working puzzle interactions and answers.
+
+Create exactly three linked puzzle locks.
+
+PUZZLE 1:
+THE HIDDEN DRAWER.
+
+The player investigates environmental objects and combines discovered clues to unlock a drawer.
+
+Use a functional keypad or equivalent existing interaction.
+
+Reveal a useful physical item after completion.
+
+PUZZLE 2:
+THE MISPLACED OBJECTS.
+
+The player uses the discovered item to access a hidden compartment.
+
+Implement a logical arrangement puzzle involving physical objects.
+
+Require a valid sequence or arrangement.
+
+Reveal the next required item after success.
+
+PUZZLE 3:
+THE FINAL SYMBOL.
+
+Use the discovered item to reveal a hidden symbol sequence.
+
+Create an interactive final lock.
+
+The player must interpret the discovered symbols and unlock the exit.
+
+The existing UV flashlight interaction should be preserved if it already works.
+
+ENDING:
+
+The player escapes Room 307.
+
+Show the warden approaching.
+
+Create a cinematic success sequence.
+
+Reveal a reference to an abandoned radio station.
+
+This reference establishes the connection to Campaign 02.
+
+IMPORTANT:
+The exact puzzle answers and clue chain must be grounded in the existing implementation. Do not invent replacement answers that contradict the working game.
+
+==================================================
+PART 5 — CAMPAIGN 02
+THE MIDNIGHT TRANSMISSION
+==================================================
+
+DIFFICULTY:
+MEDIUM.
+
+STORY:
+
+The player discovers an abandoned radio station in the basement of the hostel.
+
+A transmitter is broadcasting a mysterious signal.
+
+A note says:
+
+"If you can hear this, you are already too late. Three signals hide the truth."
+
+ENVIRONMENT:
+
+Build a completely different environment from Campaign 01.
+
+Create a retro underground radio station.
+
+Objects:
+- Radio transmitter.
+- Electrical circuit board.
+- Oscilloscope.
+- Analog frequency dial.
+- Audio recorder.
+- Headphones.
+- Wiring diagram.
+- Filing cabinet.
+- Emergency lights.
+- Locked transmission door.
+
+The visual style should feature:
+- Cold industrial lighting.
+- Retro electronic equipment.
+- Oscilloscope graphics.
+- Animated signal waveforms.
+- Old radio interfaces.
+- Subtle electrical ambience.
+
+PUZZLE 1:
+THE DEAD CIRCUIT.
+
+The transmitter is disconnected.
+
+The player must reconstruct the correct electrical path.
+
+Implement an interactive circuit board with:
+- Component selection.
+- Connection points.
+- Drag-to-connect functionality.
+- Connection validation.
+- Visual signal flow.
+
+The puzzle must have one deterministic correct solution.
+
+On success:
+- Activate the transmitter.
+- Play a startup sequence.
+- Reveal the Morse-code decoder reference.
+
+PUZZLE 2:
+THE SILENT SIGNAL.
+
+The transmitter broadcasts a fictional Morse-coded message.
+
+Create:
+- Audio playback.
+- Visual dot-and-dash representation.
+- Interactive Morse reference sheet.
+- Character input.
+- Validation.
+
+The correct decoded message must reveal the frequency needed for the final puzzle.
+
+Use this predetermined test solution:
+
+88.4
+
+Do not display this answer to the player automatically.
+
+The player must decode it through the actual puzzle.
+
+PUZZLE 3:
+THE FINAL FREQUENCY.
+
+Create a functional-looking analog radio tuner.
+
+The player must tune to the decoded frequency.
+
+Display:
+- Frequency scale.
+- Interactive dial.
+- Signal strength.
+- Static interference.
+- Signal stabilization.
+
+The correct frequency is 88.4.
+
+When tuned correctly:
+- The transmitter receives a final message.
+- The exit mechanism activates.
+- The player unlocks the door.
+
+ENDING:
+
+Reveal a transmission indicating that the warden has been hiding something beneath the hostel.
+
+Show a location reference pointing towards an underground archive.
+
+Create a unique cinematic ending.
+
+Do not reuse Campaign 01's victory scene.
+
+==================================================
+PART 6 — CAMPAIGN 03
+THE WARDEN'S LAST SECRET
+==================================================
+
+DIFFICULTY:
+DIFFICULT.
+
+STORY:
+
+The player discovers a hidden archive beneath the hostel.
+
+It contains altered records, photographs, confidential documents and a mechanical vault.
+
+The warden has hidden evidence about a forgotten incident.
+
+A note reads:
+
+"Records can be altered. Memories can be forgotten. But evidence never disappears."
+
+ENVIRONMENT:
+
+Create an entirely different underground archive.
+
+Required objects:
+- Archive shelves.
+- Locked document cabinets.
+- Old photographs.
+- Historical documents.
+- Investigation desk.
+- Cipher wheel.
+- Mechanical vault.
+- Architectural plans.
+- Witness records.
+- Hidden compartments.
+
+Visual direction:
+- Dark archival lighting.
+- Warm antique desk lamps.
+- Dust particles.
+- Old documents.
+- Mechanical objects.
+- Atmospheric shadows.
+- Cinematic environmental storytelling.
+
+PUZZLE 1:
+THE ARCHIVE CIPHER.
+
+The player discovers several encrypted documents.
+
+Create a multi-step cipher puzzle.
+
+The player must:
+- Find a cipher key.
+- Inspect the documents.
+- Understand the encryption rule.
+- Decode the message.
+- Enter the validated result.
+
+Use a deterministic test fixture.
+
+Example:
+
+Cipher text:
+QRUWK
+
+Cipher method:
+Caesar shift of three positions backwards.
+
+Decoded result:
+NORTH
+
+The clue must be discovered through the environment.
+
+Do not directly reveal the decoded answer.
+
+Successful completion reveals the next set of archive records.
+
+PUZZLE 2:
+THE WARDEN'S TIMELINE.
+
+Introduce four fictional witness statements and multiple dated documents.
+
+The player must reconstruct the correct sequence of events.
+
+Build an interactive logic-grid investigation.
+
+Include:
+- Witness statements.
+- Document dates.
+- Contradictory information.
+- Timeline controls.
+- Evidence comparison.
+
+Create a deterministic solution.
+
+Use a validated internal answer sequence:
+
+4 → 1 → 7 → 2.
+
+The player must derive the result through evidence rather than guesswork.
+
+Successful completion reveals the mechanical vault configuration.
+
+PUZZLE 3:
+THE MECHANICAL VAULT.
+
+Create a detailed interactive vault mechanism.
+
+Include:
+- Rotating symbol rings.
+- Directional controls.
+- Numbered controls.
+- Alignment indicators.
+- Mechanical animations.
+- Correct and incorrect feedback.
+
+The player must combine the outputs of the previous two puzzles.
+
+Require the correct decoded directional information and numerical sequence.
+
+The vault must not unlock unless both earlier puzzles are completed.
+
+ENDING:
+
+The archive opens.
+
+Reveal the hidden truth through documents and cinematic storytelling.
+
+Connect the events from all three campaigns.
+
+Create a unique and memorable final cinematic.
+
+==================================================
+PART 7 — GLOBAL HINT SYSTEM
+==================================================
+
+NON-NEGOTIABLE HACKATHON TWIST.
+
+Each complete campaign run has exactly TWO hints.
+
+The player must never receive more than two hints for that escape.
+
+This means:
+
+Campaign 01:
+Two hints across all three puzzles.
+
+Campaign 02:
+Two hints across all three puzzles.
+
+Campaign 03:
+Two hints across all three puzzles.
+
+The hint count is independent between campaigns.
+
+Within one campaign:
+- Start at 2/2.
+- First request changes it to 1/2.
+- Second request changes it to 0/2.
+- Third request is rejected.
+
+The counter must never reset between puzzles.
+
+Display:
+
+HINTS AVAILABLE: 2/2.
+
+When both are consumed:
+
+THIRD HINT UNAVAILABLE.
+
+"You have used all your available hints. Think carefully."
+
+The hint system must be centrally managed.
+
+Hints must be contextual and indirect.
+
+Do not reveal complete puzzle solutions.
+
+The investigation board and item descriptions must not secretly function as additional hints.
+
+The judge must be able to verify this behavior explicitly.
+
+==================================================
+PART 8 — SHARED GAMEPLAY ENGINE
+==================================================
+
+Create reusable game infrastructure.
+
+Implement:
+
+GAME STATE MANAGER:
+- Current campaign.
+- Current puzzle.
+- Game phase.
+- Victory/failure status.
+- Discovered clues.
+- Inspected objects.
+- Collected items.
+
+TIMER MANAGER:
+- Independent campaign timer.
+- Configurable durations.
+- Correct cleanup.
+- Failure transition.
+- Victory freeze.
+
+HINT MANAGER:
+- Two hints per campaign run.
+- Global per-run enforcement.
+- Third-hint rejection.
+- Contextual hint selection.
+
+INVENTORY MANAGER:
+- Campaign-specific items.
+- Item inspection.
+- Item usage.
+- Acquisition state.
+
+EVIDENCE MANAGER:
+- Clue discovery.
+- Evidence relationships.
+- Investigation history.
+
+AUDIO MANAGER:
+- Ambient audio.
+- Interaction audio.
+- Puzzle sounds.
+- Victory/failure audio.
+- Mute and volume controls.
+
+ANIMATION MANAGER:
+- Object interactions.
+- Camera movements.
+- Environment events.
+- Puzzle transitions.
+
+All state must be isolated between campaigns.
+
+==================================================
+PART 9 — IMMERSIVE ENVIRONMENT
+==================================================
+
+Make each world feel alive.
+
+Implement where appropriate:
+
+- Animated environmental objects.
+- Moving shadows.
+- Flickering lights.
+- Rain.
+- Dust particles.
+- Dynamic lighting.
+- Object movement.
+- Camera zoom.
+- Camera focus.
+- Smooth transitions.
+- Contextual sound.
+
+The environment must respond to the player's progress.
+
+Examples:
+- Opened drawers remain open.
+- Collected objects disappear from their original positions.
+- Discovered evidence stays available.
+- Completed locks change appearance.
+- Environmental sounds evolve as the timer decreases.
+
+Do not sacrifice performance for unnecessary visual effects.
+
+==================================================
+PART 10 — PHYSICAL INTERACTION SYSTEM
+==================================================
+
+Implement tactile interactions wherever appropriate.
+
+Examples:
+
+EASY:
+- Inspect objects.
+- Open drawers.
+- Flip papers.
+- Rotate keys.
+- Move UV flashlight.
+
+MEDIUM:
+- Drag electrical wires.
+- Connect terminals.
+- Play recordings.
+- Rotate frequency dials.
+
+DIFFICULT:
+- Rotate cipher wheels.
+- Compare documents.
+- Arrange timeline evidence.
+- Rotate mechanical vault rings.
+
+Support mouse and touch.
+
+Avoid making everything a generic modal with a text input.
+
+==================================================
+PART 11 — DYNAMIC WARDEN SYSTEM
+==================================================
+
+Create a locally simulated threat system.
+
+Suggested states:
+
+DORMANT.
+APPROACHING.
+OUTSIDE_ROOM.
+INSPECTING.
+IMMINENT_ARRIVAL.
+ARRIVED.
+
+Trigger narrative events according to campaign progress and countdown.
+
+Examples:
+- Footsteps.
+- Knocking.
+- Shadows.
+- Door-handle movement.
+- Lighting changes.
+- Warning messages.
+
+Each campaign should have different threat events.
+
+The threat system must be predictable and fair.
+
+The warden must not cause an early failure through random behavior.
+
+The actual failure condition remains the countdown reaching zero.
+
+==================================================
+PART 12 — PLAYER PROFILE AND ACHIEVEMENTS
+==================================================
+
+Create a local player profile.
+
+Allow:
+- Nickname.
+- Avatar selection.
+- Campaign statistics.
+- Personal bests.
+- Achievement collection.
+
+Achievement examples:
+
+FIRST ESCAPE:
+Complete Easy.
+
+SIGNAL DETECTIVE:
+Complete Medium.
+
+ARCHIVE MASTER:
+Complete Difficult.
+
+NO HELP NEEDED:
+Complete a campaign without using hints.
+
+MASTER ESCAPE ARTIST:
+Complete all three campaigns.
+
+THE OBSERVER:
+Inspect every interactive object in a campaign.
+
+THE LAST SECOND:
+Complete a campaign with less than one minute remaining.
+
+Track progress locally.
+
+Do not introduce authentication or online services.
+
+==================================================
+PART 13 — RESULTS AND ENDINGS
+==================================================
+
+Each campaign must have its own victory and failure experience.
+
+Victory results should display:
+
+- Completion time.
+- Puzzles solved.
+- Hints consumed.
+- Objects inspected.
+- Evidence collected.
+- Achievement earned.
+- Final rank.
+
+Suggested ranks:
+
+S:
+Exceptional escape.
+
+A:
+Excellent escape.
+
+B:
+Successful escape.
+
+C:
+Barely escaped.
+
+Rank calculation must be deterministic and documented.
+
+Create distinct victory cinematics for each campaign.
+
+Create distinct failure cinematics for each campaign.
+
+Add replay functionality.
+
+MASTER ENDING:
+
+After all three campaigns are completed, unlock a final cinematic epilogue.
+
+The epilogue connects the room, transmission and archive.
+
+It reveals the larger hostel mystery.
+
+This is a narrative bonus only.
+
+It must not introduce a fourth mandatory puzzle.
+
+==================================================
+PART 14 — VISUAL DESIGN SYSTEM
+==================================================
+
+Maintain one consistent game-platform identity.
+
+However, each campaign must have a different visual language.
+
+EASY:
+- Warm lighting.
+- Familiar hostel furniture.
+- Comfortable visual atmosphere.
+
+MEDIUM:
+- Cool industrial lighting.
+- Electronic interfaces.
+- Signal waveforms.
+- Retro equipment.
+
+DIFFICULT:
+- Dark archive atmosphere.
+- Antique objects.
+- Complex mechanical devices.
+- Historical documents.
+
+Create:
+- Premium game launcher.
+- Cinematic campaign cards.
+- Polished HUD.
+- Inventory interface.
+- Evidence board.
+- Puzzle interfaces.
+- Results screens.
+- Settings.
+
+Avoid generic dashboard UI.
+
+==================================================
+PART 15 — ACCESSIBILITY AND PERFORMANCE
+==================================================
+
+Support:
+- Desktop.
+- Laptop.
+- Mobile browsers.
+
+Implement:
+- Responsive layout.
+- Mouse and touch controls.
+- Sound controls.
+- Optional subtitles.
+- High-contrast mode.
+- Readable text.
+- Keyboard accessibility.
+- Graphics quality settings.
+
+Ensure smooth performance on ordinary laptops.
+
+Optimize:
+- Image assets.
+- 3D rendering.
+- Audio playback.
+- Animation loops.
+- Event listeners.
+- Timers.
+- State updates.
+
+Provide graceful fallbacks if certain advanced visual effects cannot run.
+
+==================================================
+PART 16 — STRICT FRONTEND-ONLY ARCHITECTURE
+==================================================
+
+THIS IS A NON-NEGOTIABLE HACKATHON RULE.
+
+The entire application must remain a frontend-only browser application.
+
+PROHIBITED:
+
+- Node.js backend.
+- Express.
+- NestJS.
+- FastAPI.
+- Django.
+- Flask.
+- Supabase.
+- Firebase.
+- PostgreSQL.
+- MongoDB.
+- Redis.
+- External databases.
+- Backend APIs.
+- External authentication.
+- Paid services.
+- Cloud functions.
+- Secret keys.
+- External AI APIs.
+- Required .env files.
+
+ALLOWED:
+
+- Existing React application.
+- TypeScript.
+- Vite.
+- Existing CSS/Tailwind setup.
+- Existing Framer Motion installation.
+- Existing Three.js installation.
+- Browser-native APIs.
+- Local images and audio.
+- Local calculations.
+- React state.
+- localStorage.
+- IndexedDB if genuinely required.
+
+All puzzle validation must happen locally.
+
+All game state must be handled in the browser.
+
+All sample data must be fictional.
+
+No actual communications or external services are required.
+
+The application must work as a static website.
+
+It must support:
+
+npm install
+npm run dev
+npm run build
+
+The resulting static dist folder must be deployable on Vercel or Cloudflare Pages.
+
+IMPORTANT:
+A Vite development server is acceptable. It is not a game backend.
+
+==================================================
+PART 17 — REQUIRED PROJECT ARCHITECTURE
+==================================================
+
+Create a modular architecture appropriate to the existing repository.
+
+Suggested organization:
+
+src/
+  app/
+    App.tsx
+    routes/
+
+  launcher/
+    MainMenu.tsx
+    CampaignSelection.tsx
+    PlayerProfile.tsx
+
+  game-engine/
+    GameStateManager.ts
+    TimerManager.ts
+    HintManager.ts
+    InventoryManager.ts
+    EvidenceManager.ts
+    AudioManager.ts
+    AnimationManager.ts
+
+  campaigns/
+    easy/
+      campaign-config.ts
+      story/
+      environment/
+      objects/
+      puzzles/
+      evidence/
+      inventory/
+      endings/
+
+    medium/
+      campaign-config.ts
+      story/
+      environment/
+      objects/
+      puzzles/
+      evidence/
+      inventory/
+      endings/
+
+    difficult/
+      campaign-config.ts
+      story/
+      environment/
+      objects/
+      puzzles/
+      evidence/
+      inventory/
+      endings/
+
+  shared/
+    components/
+    hooks/
+    utilities/
+    types/
+
+  assets/
+    easy/
+    medium/
+    difficult/
+    audio/
+    ui/
+
+  tests/
+    unit/
+    integration/
+    campaign/
+
+Do not force this exact structure if the existing architecture is already well organized.
+
+Avoid duplicated game-engine code.
+
+Keep campaign content isolated.
+
+==================================================
+PART 18 — MANDATORY JUDGE VERIFICATION
+==================================================
+
+The application must support the exact verification path.
+
+STEP 01:
+CLICK OBJECTS AND REVEAL CLUES.
+
+Demonstrate at least five interactive objects in the selected campaign.
+
+Show:
+- Actual object interactions.
+- Clue discovery.
+- Evidence updates.
+- Meaningful visual feedback.
+
+STEP 02:
+USE TWO HINTS AND CONFIRM A THIRD HINT IS UNAVAILABLE.
+
+Demonstrate:
+- Start with 2/2.
+- Use first hint.
+- Confirm 1/2.
+- Use second hint.
+- Confirm 0/2.
+- Request third hint.
+- Display THIRD HINT UNAVAILABLE.
+- Confirm the restriction remains active throughout the campaign.
+
+STEP 03:
+SOLVE THE FINAL PUZZLE AND SHOW THE WIN STATE.
+
+Demonstrate:
+- First lock completed.
+- Second lock completed.
+- Third lock completed.
+- Final exit unlocked.
+- Unique cinematic victory.
+- Results screen.
+
+The same verification must work independently in all three campaigns.
+
+==================================================
+PART 19 — AUTOMATED ACCEPTANCE TESTS
+==================================================
+
+Test all campaigns independently.
+
+CAMPAIGN SELECTION:
+- Three distinct campaign cards.
+- Correct campaign launches.
+- Correct environment loads.
+- Correct story appears.
+- Campaign progress remains isolated.
+
+EASY:
+- Existing original gameplay preserved.
+- Three linked puzzles work.
+- All original validation preserved.
+- Victory and failure work.
+
+MEDIUM:
+- Circuit connection puzzle works.
+- Morse decoder works.
+- Correct test solution is 88.4.
+- Frequency tuner validates the decoded result.
+- Victory and failure work.
+
+DIFFICULT:
+- Cipher decoding works.
+- Caesar shift validation works.
+- NORTH is the expected decoded test output.
+- Timeline puzzle validates 4-1-7-2.
+- Mechanical vault requires both previous outputs.
+- Victory and failure work.
+
+HINTS:
+- Exactly two hints per campaign run.
+- No reset between puzzle stages.
+- Third hint unavailable.
+- Campaign hint states isolated.
+
+CAMPAIGN ISOLATION:
+- Easy inventory does not leak into Medium.
+- Medium evidence does not leak into Difficult.
+- Timers are independent.
+- Progression is independent.
+- Restarting one campaign does not erase unrelated campaign records.
+
+PLATFORM:
+- Player profile works locally.
+- Achievements work.
+- Results work.
+- Replay works.
+- Master ending unlocks correctly.
+- Mobile interactions work.
+- No external API dependency.
+- No backend dependency.
+- No .env dependency.
+- No broken buttons.
+- No console errors.
+
+==================================================
+PART 20 — IMPLEMENTATION ORDER
+==================================================
+
+Do not implement the entire platform in one uncontrolled generation step.
+
+Proceed in milestones.
+
+MILESTONE 1:
+Inspect repository, preserve original game and build the launcher.
+
+MILESTONE 2:
+Extract shared game-engine infrastructure and isolate campaigns.
+
+MILESTONE 3:
+Complete the Easy campaign using the existing game.
+
+MILESTONE 4:
+Implement the complete Medium campaign with a unique environment and puzzles.
+
+MILESTONE 5:
+Implement the complete Difficult campaign with a unique environment and puzzles.
+
+MILESTONE 6:
+Implement the hint system, evidence, inventory and campaign progression.
+
+MILESTONE 7:
+Implement cinematics, audio and dynamic threat events.
+
+MILESTONE 8:
+Implement profile, achievements and results.
+
+MILESTONE 9:
+Perform regression tests and hackathon verification.
+
+At the end of each milestone:
+- Run the application.
+- Test implemented interactions.
+- Fix errors.
+- Verify original gameplay.
+- Update implementation documentation.
+
+Do not proceed by creating placeholder screens for unfinished campaigns.
+
+==================================================
+FINAL CREATIVE DIRECTIVE
+==================================================
+
+The objective is to create three distinct, genuinely playable escape-room adventures.
+
+Easy must be approachable and satisfying.
+
+Medium must require logical and technical reasoning.
+
+Difficult must require multi-layer deduction and careful investigation.
+
+The three environments must be visually different.
+
+The nine puzzle locks must be mechanically different.
+
+The stories must be connected.
+
+The two-hint rule must be strictly enforced.
+
+The victory and failure scenes must be memorable.
+
+The game must be accessible to judges without requiring setup or technical assistance.
+
+Do not prioritize feature count over quality.
+
+Do not sacrifice working functionality for unnecessary visual effects.
+
+Do not introduce backend infrastructure.
+
+Do not leave unfinished puzzle mechanics.
+
+FIRST inspect the existing repository.
+
+THEN implement the platform incrementally.
+
+FINALLY test all three complete campaigns.
+
+DELIVER A COMPLETE, POLISHED, RESPONSIVE, FRONTEND-ONLY ESCAPE-ROOM GAMING PLATFORM.
+
+SUCCESS CRITERION:
+
+A judge must be able to open the application, choose any available campaign, understand its story, interact with the environment, discover clues, use exactly two hints, confirm that a third is unavailable, solve three interconnected puzzles and experience a complete victory or failure sequence.
+
+All three campaigns must be independently playable.
+
+The final experience must feel like a cohesive indie game product, not three disconnected AI-generated demos.
